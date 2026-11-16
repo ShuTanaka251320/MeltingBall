@@ -1,0 +1,233 @@
+# -----------------------------------------------------------------------------
+#
+#	ステージモデル配置テキスト[stage.txt]
+#	Author : Shu Tanaka
+#
+#------------------------------------------------------------------------------
+
+SCRIPT			# この行は絶対消さない
+#------------------------------------------------------------------------------
+# モデルファイル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 7
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/stage/stage.x	# [0]ステージ
+MODEL_FILENAME = data/MODEL/stage/fence.x	# [1]柵
+MODEL_FILENAME = data/MODEL/stage/snowman.x	# [2]雪だるま
+MODEL_FILENAME = data/MODEL/stage/hydrant.x	# [3]消火栓
+MODEL_FILENAME = data/MODEL/stage/light.x	# [4]街灯
+MODEL_FILENAME = data/MODEL/stage/board.x	# [5]看板
+MODEL_FILENAME = data/MODEL/stage/corn.x	# [6]三角コーン
+
+#------------------------------------------------------------------------------
+# キャラクター情報
+#-----------------------------------------------------------------------------
+
+MODELSET
+		INDEX = 0					# ステージ
+		POS = 0.0 -10.0 20.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 4					# 街灯
+		POS = 300.0 0.0 200.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+
+MODELSET
+		INDEX = 4					# 街灯
+		POS = 300.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 4					# 街灯
+		POS = 300.0 0.0 -200.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 4					# 街灯
+		POS = 300.0 0.0 -400.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 4					# 街灯
+		POS = 300.0 0.0 -600.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 4					# 街灯
+		POS = -500.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+
+MODELSET
+		INDEX = 4					# 街灯
+		POS = -500.0 0.0 -200.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 4					# 街灯
+		POS = -500.0 0.0 -400.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 4					# 街灯
+		POS = -500.0 0.0 -600.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 2					# 雪だるま
+		POS = 320.0 0.0 690.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 2					# 雪だるま
+		POS = -220.0 0.0 290.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 2					# 雪だるま
+		POS = 20.0 0.0 -490.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 3					# 消火栓
+		POS = 320.0 0.0 240.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 3					# 消火栓
+		POS = -120.0 0.0 -440.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 3					# 消火栓
+		POS = -520.0 0.0 640.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 2					# 雪だるま
+		POS = -120.0 0.0 -490.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 2					# 雪だるま
+		POS = 120.0 0.0 -490.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 2					# 雪だるま
+		POS = 220.0 0.0 -490.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 2					# 雪だるま
+		POS = 320.0 0.0 -490.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 5					# 看板
+		POS = 550.0 0.0 -1000.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 5					# 看板	
+		POS = 430.0 0.0 -1000.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 5					# 看板
+		POS = 370.0 0.0 -1000.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 5					# 看板	
+		POS = 310.0 0.0 -1000.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 5					# 看板
+		POS = 250.0 0.0 -1000.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 5					# 看板	
+		POS = 490.0 0.0 -1000.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 6					# 三角コーン	
+		POS = 490.0 0.0 400.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 6					# 三角コーン	
+		POS = -290.0 0.0 800.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+
+MODELSET
+		INDEX = 6					# 三角コーン	
+		POS = 190.0 0.0 -300.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+
+MODELSET
+		INDEX = 6					# 三角コーン	
+		POS = -590.0 0.0 -650.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+MODELSET
+		INDEX = 6					# 三角コーン	
+		POS = 390.0 0.0 -850.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+
+MODELSET
+		INDEX = 6					# 三角コーン	
+		POS = -490.0 0.0 850.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+
+MODELSET
+		INDEX = 6					# 三角コーン	
+		POS = 790.0 0.0 850.0
+		ROT = 0.0 0.0 0.0
+END_MODELSET
+
+END_SCRIPT		# この行は絶対消さないこと！
